@@ -1,0 +1,23 @@
+header {
+    background: rgb(31, 44, 44);
+    
+}
+
+.admin-wrapper { 
+    display: flex;  
+    height:  calc(100% - 66px);
+}
+
+.admin-wrapper .left-sidebar {
+    flex: 2;
+    height: 100%;
+    background: rgb(34, 31, 31);
+    border: 1px solid red;
+    
+}
+
+.admin-wrapper .admin-content {
+    flex: 8;
+    height: 100%;
+
+}
